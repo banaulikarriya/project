@@ -6,6 +6,7 @@ application to manage tournament matches
 2. npm start or nodemon app.js
 3. create db with name project
 4. import all json from *db* folder
+5. run http://localhost:3000/
 
 # modules 
 1. Login Page
