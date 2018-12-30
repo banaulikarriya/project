@@ -1,0 +1,35 @@
+<div id="page-wrapper">
+    <div id="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <h5>Update Project</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Update Project
+                    </div>
+                    <div class="panel-body">
+                        {{#if err}}
+                        <div class="alert alert-danger">{{err}}</div>
+                        {{/if}}
+                        <form method="POST" action="http://localhost:3000/updateProject">
+                            <div class="form-group">
+                                <label for="firstName">Project</label>
+                                <input type="hidden" class="form-control" placeholder="Project name" name="id" autofocus="autofocus" value="{{projectDetails._id}}">
+                                <input type="text" class="form-control" placeholder="Project name" name="project" autofocus="autofocus" value="{{projectDetails.project}}">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Description</label>
+                                <textarea class="form-control" placeholder="description" name="description">{{projectDetails.description}}</textarea>
+                            </div>
+                        <button type="submit" class="btn btn-primary btn-block">Update</button>
+                         </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+{ 
+    "_id" : ObjectId("5c262de5f5f2e25888de217f"), 
+    "status" : true, 
+    "firstName" : "Admin", 
+    "lastName" : "Admin", 
+    "email" : "admin@gmail.com", 
+    "username" : "admin", 
+    "password" : "$2a$10$MQr/a.tmplfAAFmxZbqhBOvUHREtoeEpxhTSf2GQUdb6MSlL6AMw.", 
+    "createdAt" : ISODate("2018-12-28T14:06:29.460+0000"), 
+    "updatedAt" : ISODate("2018-12-28T14:06:29.460+0000"), 
+    "__v" : NumberInt(0)
+}
